@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Class-Path: hibernate-commons-annotations-3.1.0.GA.jar persistence-api
+ -1.0.jar json4s-ast_2.11-3.2.9.jar httpclient-4.1.1.jar asm-tree-4.1.
+ jar pegdown-1.2.1.jar slf4j-simple-1.4.2.jar xml-apis-1.0.b2.jar scal
+ atest_2.11-2.2.0.jar specs2_2.11-2.3.12.jar scalap-2.11.0.jar hiberna
+ te-annotations-3.4.0.GA.jar javassist-3.4.GA.jar httpcore-4.1.jar ejb
+ 3-persistence-1.0.2.GA.jar dom4j-1.6.1.jar scalacheck_2.11-1.11.3.jar
+  jta-1.1.jar scalaz-core_2.11-7.0.6.jar scalac-scapegoat-plugin_2.11-
+ 1.0.0.jar hsqldb-1.8.0.1.jar scalaz-effect_2.11-7.0.6.jar scalac-scov
+ erage-plugin_2.11-1.1.0.jar junit-4.11.jar slf4j-api-1.4.2.jar json4s
+ -native_2.11-3.2.9.jar scalaz-concurrent_2.11-7.0.6.jar objenesis-1.0
+ .jar commons-logging-1.1.1.jar classycle-1.4.3.jar hibernate-entityma
+ nager-3.4.0.GA.jar hibernate-core-3.3.0.SP1.jar signpost-commonshttp4
+ -1.2.jar parboiled-core-1.1.4.jar scalajpa_2.11-1.5.jar asm-analysis-
+ 4.1.jar scala-actors-2.11.1.jar scala-parser-combinators_2.11-1.0.1.j
+ ar scala-compiler-2.11.0.jar scala-library-2.11.6.jar scala-reflect-2
+ .11.6.jar hamcrest-core-1.3.jar json4s-core_2.11-3.2.9.jar commons-co
+ dec-1.4.jar scaldi_2.11-0.4.jar test-interface-1.0.jar scala-xml_2.11
+ -1.0.2.jar parboiled-java-1.1.4.jar mockito-core-1.9.5.jar paranamer-
+ 2.6.jar testing-0.13.9.jar paranamer-2.6.jar scalaz-core_2.10-7.0.2.j
+ ar sbt-scapegoat-1.0.0.jar main-0.13.9.jar json4s-ast_2.10-3.2.10.jar
+  ivy-0.13.9.jar main-settings-0.13.9.jar logic-0.13.9.jar quasiquotes
+ _2.10-2.0.1.jar sbinary_2.10-0.4.2.jar task-system-0.13.9.jar jansi.j
+ ar apply-macro-0.13.9.jar io-0.13.9.jar test-interface-1.0.jar ensime
+ -sbt-0.2.3.jar jline.jar jawn-parser_2.10-0.6.0.jar process-0.13.9.ja
+ r test-agent-0.13.9.jar cross-0.13.9.jar compiler-ivy-integration-0.1
+ 3.9.jar compile-0.13.9.jar scala-reflect.jar scalariform_2.10-0.1.4.j
+ ar api-0.13.9.jar tasks-0.13.9.jar sbteclipse-plugin-2.4.0.jar json4s
+ -core_2.10-3.2.10.jar ivy-2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07ab
+ c51ec93.jar serialization_2.10-0.1.1.jar scala-reflect-2.10.5.jar com
+ piler-integration-0.13.9.jar launcher-interface-1.0.0-M1.jar sbt-scov
+ erage-1.1.0.jar jline-2.11.jar scala-library.jar sbt-idea-1.5.2.jar s
+ bteclipse-core-2.4.0.jar jsch-0.1.46.jar scalac-scoverage-plugin_2.10
+ -1.1.0.jar json4s-support_2.10-0.6.0.jar logging-0.13.9.jar scala-pic
+ kling_2.10-0.10.0.jar persist-0.13.9.jar classpath-0.13.9.jar complet
+ ion-0.13.9.jar commons-io-2.0.1.jar scala-compiler.jar relation-0.13.
+ 9.jar scalaz-effect_2.10-7.0.2.jar command-0.13.9.jar incremental-com
+ piler-0.13.9.jar sbt-0.13.9.jar actions-0.13.9.jar collections-0.13.9
+ .jar interface-0.13.9.jar control-0.13.9.jar tracking-0.13.9.jar run-
+ 0.13.9.jar sbt-scalariform-1.3.0.jar cache-0.13.9.jar classfile-0.13.
+ 9.jar asm-util-4.1.jar joda-time-1.6.jar signpost-core-1.2.jar scalac
+ -scoverage-runtime_2.11-1.1.0.jar asm-4.1.jar
+Main-Class: 
+

@@ -16,6 +16,7 @@ import scala.language.implicitConversions
  * - Create a method named: + to the Euro class that adds another Euro
  * - Create a method named: * to the Euro class that multiplies an Euro
  *
+
  * Exercise 2:
  * - Create an abstract class Currency
  * - Provide it with one constructor parameter: symbol:String
@@ -40,6 +41,21 @@ import scala.language.implicitConversions
  *   of type [[org.scalalabs.basic.lab01.CurrencyConverter]]
  * - Use the implicit CurrencyConverter to do the conversion.
  */
-class Euro {
 
+abstract class Currency(val symbol: String = "EUR")
+
+class Euro(val euro: Int, val cents: Int = 0) extends Currency{
+  val inCents: Int = euro * 100 + cents
+  def +(other: Euro): Euro = Euro.fromCents(inCents + other.inCents)
+
+  def *(num: Int): Euro = Euro.fromCents(inCents * num)
+  override  def toString: String = cents match{
+    case _ if cents == 0 => symbol + ": " + euro.toString + ',' + "--"
+    case _ if (cents > 0  && cents< 10) => symbol + ": " + euro.toString + ",0" + cents.toString
+    case _ => symbol + ": " + euro.toString + ',' + cents.toString
+  }
+}
+
+object Euro {
+  def fromCents(cents: Int) = new Euro(cents / 100, cents % 100)
 }
